@@ -99,7 +99,8 @@ local weapons = {
     'WEAPON_SMG_MK2',
     'WEAPON_SNSPISTOL_MK2',
     'WEAPON_SPECIALCARBINE_MK2',
-    'WEAPON_STONE_HATCHET'
+    'WEAPON_STONE_HATCHET',
+    'WEAPON_TASER',
 }
 
 local holstered = true
