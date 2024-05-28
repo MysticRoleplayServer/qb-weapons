@@ -35,7 +35,13 @@ Config.WeapDraw = {
         'WEAPON_SNSPISTOL',
         'WEAPON_HEAVYPISTOL',
         'WEAPON_VINTAGEPISTOL',
+        -- Custom
         'WEAPON_TASER',
+        'WEAPON_DE',
+        'WEAPON_M9',
+        'WEAPON_FNX45',
+        'WEAPON_GLOCK18C',
+        'WEAPON_GLOCK22'
     }
 }
 
