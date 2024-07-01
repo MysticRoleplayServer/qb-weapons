@@ -23,7 +23,7 @@ Config.Throwables = {
 }
 
 Config.WeapDraw = {
-    variants = { 130, 122, 3, 6, 8 },
+    variants = { 1 },
     weapons = {
         --'WEAPON_STUNGUN',
         'WEAPON_PISTOL',
