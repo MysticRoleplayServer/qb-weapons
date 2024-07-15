@@ -22,6 +22,12 @@ RegisterNetEvent('QBCore:Client:OnPlayerUnload', function()
     end
 end)
 
+RegisterNetEvent('weapons:client:SetWeaponQuality', function(amount) -- qb-weaponrepair
+    if CurrentWeaponData and next(CurrentWeaponData) then
+        TriggerServerEvent("weapons:server:SetWeaponQuality", CurrentWeaponData, amount)
+    end
+end)
+
 -- Functions
 
 local function DrawText3Ds(x, y, z, text)
