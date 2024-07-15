@@ -118,6 +118,14 @@ end)
 
 -- Events
 
+RegisterNetEvent("weapons:server:SetWeaponQuality", function(data, hp) -- qb-weaponrepair
+    local src = source
+    local Player = QBCore.Functions.GetPlayer(src)
+    local WeaponSlot = Player.PlayerData.items[data.slot]
+    WeaponSlot.info.quality = hp
+    Player.Functions.SetInventory(Player.PlayerData.items, true)
+end)
+
 RegisterNetEvent('qb-weapons:server:UpdateWeaponAmmo', function(CurrentWeaponData, amount)
     local src = source
     local Player = QBCore.Functions.GetPlayer(src)
