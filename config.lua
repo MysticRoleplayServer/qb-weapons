@@ -207,6 +207,7 @@ Config.DurabilityMultiplier = {
     --nx taser
     weapon_taser                = 0.15,
     weapon_beanbagshotgun 		= 0.0,
+    weapon_flamethower          = 0.15,
 }
 
 Config.WeaponRepairPoints = {
