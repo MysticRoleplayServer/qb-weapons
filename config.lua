@@ -204,10 +204,11 @@ Config.DurabilityMultiplier = {
     weapon_ak74 			    = 0.15,
     weapon_karambit 	        = 0.15,
     weapon_colbaton 	        = 0.15,
+    weapon_dildocmg 	        = 0.15,
     --nx taser
     weapon_taser                = 0.15,
     weapon_beanbagshotgun 		= 0.0,
-    weapon_flamethower          = 0.15,
+    weapon_flamethrower         = 0.15,
 }
 
 Config.WeaponRepairPoints = {
